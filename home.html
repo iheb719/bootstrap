@@ -30,7 +30,6 @@
     </header>
 
     <main class="container">
-        <h1></h1>
         <div class="row" style="height: calc(100vh - 56px);">
             <aside class="col-2 border border-danger">
                 <div class=" ">
@@ -41,8 +40,25 @@
                 </div>
             </aside>
 
-            <section class="col-8 border border-warning ">
-                <div class="lead "> the Main section </div>
+            <section class="col-10 border border-warning ">
+                <form>
+                    <div class="form-group row">
+                        <label class="col-2 col-form-label text-right">Nom</label>
+                        <input class="col-4 form-control" type="text" />
+                        <label class="col-2 col-form-label text-right">Prénom</label>
+                        <input class="col-4 form-control" type="text" />
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-2 col-form-label text-right">MDP</label>
+                        <input class="col-4 form-control" type="password" />
+                        <label class="col-2 col-form-label text-right">Confirmer MDP</label>
+                        <input class="col-4 form-control" type="password" />
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-2 col-form-label text-right">E-mail</label>
+                        <input class="col-10 form-control" type="email" />
+                    </div>
+                </form>
             </section>
         </div>
     </main>
